@@ -12,9 +12,9 @@ const connect =()=>{
     .catch((err)=>{
         console.log("DB connection issue");
         console.error(err);
-        console.log(error);
+        console.log(err);
         process.exit(1);
     })
 }
 
-module,exports= {connect};
+module.exports= {connect};
