@@ -1,6 +1,7 @@
 
-const bcrypt=require("bcrypt");
-const User=require("../models/User");
+const bcrypt= require("bcrypt");
+
+ const User=require("../models/User.js");
 
 // signup route handler
 exports.signup=async(req,res)=>{

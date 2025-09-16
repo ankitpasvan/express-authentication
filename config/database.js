@@ -1,4 +1,5 @@
 const mongoose=require('mongoose');
+
 require("dotenv").config();
 
 const connect =()=>{
@@ -17,4 +18,4 @@ const connect =()=>{
     })
 }
 
-module.exports= {connect};
+module.exports= connect;

@@ -1,5 +1,6 @@
 
 const mongoose=require("mongoose");
+
 const userSchema= new mongoose.Schema({
     name:{
         type:String,
@@ -20,5 +21,4 @@ const userSchema= new mongoose.Schema({
         enum:["Admin","Student","Visitor"]
     }
 })
-
-module.exports=mongoose.model("user",userSchema);
+module.exports = mongoose.model("user",userSchema);
